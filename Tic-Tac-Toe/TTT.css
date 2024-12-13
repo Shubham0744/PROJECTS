@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#nav-pan{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+#win{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(25, 121, 17);
+    text-decoration: underline;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+#btn-box{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btns{
+    margin: 7.8px;
+    height: 30%;
+    width: 30%;
+    background-color: yellow;
+    color: red;
+    font-size: 6rem;
+}
+#set{
+    height: 40px;
+    width: 100px;
+    margin: 50px;
+    margin-top: 0%;
+    border-radius: 5px;
+    background-color: rgb(105, 219, 43);
+}
+#FT{
+    display: flex;
+    justify-content: center;
+}

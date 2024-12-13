@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#name{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+#imgs{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rock{
+    background-image: url("https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/512px/270a-1f3fb.png");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+#rock:hover{
+    border: 2px solid black;
+}
+#paper{
+    background-image: url("https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/512px/1f91a-1f3fb.png");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+#paper:hover{
+    border: 2px solid black;
+}
+#scissor{
+    background-image: url("https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/512px/270c-1f3fb.png");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+#scissor:hover{
+    border: 2px solid black;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+#btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+@media (min-width:200px) and (max-width:600px) {
+    #rock{
+        height: 100px;
+        width: 100px;
+    }
+    #paper{
+        height: 100px;
+        width: 100px;
+    }
+    #scissor{
+        height: 100px;
+        width: 100px;
+    } 
+}
