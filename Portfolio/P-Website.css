@@ -1,0 +1,381 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation-bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(33, 29, 29);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+}
+.navigation-bar span{
+    margin-left: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.navigation-bar a{
+    color: rgb(126, 244, 105);
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navigation-bar a:hover{
+    color: rgb(255, 255, 0);
+}
+.img-main{
+    overflow: auto;
+    height: 750px;
+    width: 100%;
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg);
+    background-size: cover;
+
+}
+.img-txt{
+    color: rgb(99, 230, 76);
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 30px;
+    font-weight: bold;
+    transition: 100ms;
+}
+.img-txt:hover{
+    font-size: 60px;
+}
+.main-box{
+    display: flex;
+    margin: 30px;
+    margin-top: 0px;
+}
+.img-p{
+    margin-top: 150px;
+    margin-left: 400px;
+    font-size: 40px;
+    width: 800px;
+    line-height: 50px;
+    font-weight: bold;
+    color: rgb(252, 255, 251);
+}
+#main-2nd{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    border-top: 10px solid white;
+    background-blend-mode: lighten;
+    background-image: url(https://i.pinimg.com/originals/7f/e7/74/7fe774bbacce09f00cb5b2e3cbc48db3.png);
+}
+.edu{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(99, 230, 76);
+    transition: 100ms;
+}
+.edu:hover{
+    font-size: 55px;
+}
+#education {
+    display: flex;
+    flex-wrap: wrap;
+}
+.study {
+    color: white;
+    border-radius: 7px;
+    margin-left: 20%;
+    margin-top: 4%;
+    padding-left: 10px;
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.E-text{
+    color: rgb(67, 147, 67);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    transition: 200ms;
+}
+.E-text:hover{
+    font-size: 50px;
+}
+#main-skills{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    border-top: 10px solid white;
+    background-blend-mode: lighten;
+    background-image: url(https://i.pinimg.com/originals/7f/e7/74/7fe774bbacce09f00cb5b2e3cbc48db3.png);
+}
+#main-ski {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+.skil1 {
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background-image: url(https://i.pinimg.com/originals/6e/46/e7/6e46e7dbe2bb73dacc055e5dbd85c3ad.png);
+    background-size: cover;
+    transition: 200ms;
+}
+.skil1:hover{
+    height: 230px;
+    width: 230px;
+}
+.skil2 {
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background-image: url(https://th.bing.com/th/id/OIP.eyVWUDy9kDXVGDGv1Ev4iAAAAA?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    transition: 200ms;
+}
+.skil2:hover{
+    height: 230px;
+    width: 230px;
+}
+.skil3 {
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background-image: url(https://thumbs.dreamstime.com/b/coding-language-css-system-vector-thin-line-icon-binary-data-encryption-linear-pictogram-web-style-development-programming-bug-168539789.jpg);
+    background-size: cover;
+    transition: 200ms;
+}
+.skil3:hover{
+    height: 230px;
+    width: 230px;
+}
+.skil4 {
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background-image: url(https://sundze7.github.io/Sample-HTML-CSS-Website/img/html%20logo.png);
+    background-size: cover;
+    background-position: center;
+    transition: 200ms;
+}
+.skil4:hover{
+    height: 230px;
+    width: 230px;
+}
+.skil5 {
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background-image: url(https://th.bing.com/th/id/R.255b77e251b19a6d0600634d2ff9b006?rik=k3edqLFjWyFC1Q&riu=http%3a%2f%2fpngimg.com%2fuploads%2fmysql%2fmysql_PNG22.png&ehk=ffHItQzD%2fUaKL%2bPOiED3dtDd9YUI%2fJRUzYL5raCZnR8%3d&risl=&pid=ImgRaw&r=0);
+    background-color: rgb(244, 245, 245);
+    background-size: cover;
+    transition: 200ms;
+}
+.skil5:hover{
+    height: 230px;
+    width: 230px;
+}
+.project{
+    font-size: 30px;
+    color: white;
+}
+#P-txt{
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-bottom: 40px;
+}
+#P-txt a{
+    margin-left: 2px;
+    color: rgb(99, 230, 76);
+}
+#main-footer{
+    overflow: auto;
+    border-top: 10px solid white;
+    background-image: url(https://th.bing.com/th/id/OIP.Afzgjym-WY3ZTGrOwsvVkgHaEK?rs=1&pid=ImgDetMain);
+}
+.ftr{
+    margin-left: 5px;
+    color: rgb(99, 230, 76);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 100ms;
+}
+.ftr:hover{
+    font-size: 35px;
+}
+.details{
+    display: flex;
+    background-blend-mode: lighten;
+    background-image: url(https://th.bing.com/th/id/OIP.Afzgjym-WY3ZTGrOwsvVkgHaEK?rs=1&pid=ImgDetMain);
+    height: 100%;    
+    width: 100%;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+.ft{
+    margin-top: 10px;
+    color: rgb(99, 230, 76);
+    font-size: 20px;
+}
+.ftt{
+    margin-top: 5px;
+    color: white;
+}
+.ftt a{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+.links li{
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 200ms;
+}
+.links a:hover{
+    font-size: 30px;
+}
+.links i{
+    font-size: 30px;
+    color: blue;
+    margin-top: 15px;
+    margin-right: 10px;
+    transition: 200ms;
+}
+.links i:hover{
+    font-size: 40px;
+}
+iframe{
+    height: 250px;
+    width: 300px;
+}
+.copy{
+    overflow: auto;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://th.bing.com/th/id/OIP.Afzgjym-WY3ZTGrOwsvVkgHaEK?rs=1&pid=ImgDetMain);
+    color: white;
+    transition: 200ms;
+}
+.copy:hover{
+    font-size: 20px;
+}
+@media (max-width:1024px) {
+    .navigation-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .navigation-bar span{
+        font-size: 25px;
+    }
+    .navigation-bar a{
+        font-size: 15px;
+    }
+    .img-txt{
+        font-size: 35px;
+    }
+    .img-p{
+        margin-top: 150px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .img-txt:hover{
+        font-size: 50px;
+    }
+    .E-text{
+        margin-bottom: 0px;
+    }
+    #main-2nd{
+        overflow: hidden;
+        height: 730px;
+    }
+    .edu{
+        margin-top: 10px;
+    }
+    #main-skills{
+        overflow: auto;
+        height: 730px;
+    }
+    .skil1 {
+        height: 150px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    .skil2 {
+        height: 150px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    .skil3 {
+        height: 150px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    .skil4 {
+        height: 150px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    .skil5 {
+        height: 150px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    #P-txt{
+        margin-top: 30px;
+    }
+    .social{
+        height: 200px;
+    }
+    .links{
+        height: 100px;
+        margin-bottom: 70px;
+    }
+    .study {
+        margin-left: 13%;
+    }
+    .edu{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .project{
+        font-size: 20px;
+    }
+}
