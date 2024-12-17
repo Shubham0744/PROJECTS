@@ -353,10 +353,6 @@ iframe{
         width: 80%;
         font-size: 50px;
     }
-    #main-skills{
-        overflow: auto;
-        height: 730px;
-    }
     .skil1 {
         height: 171px;
         width: 171px;
@@ -397,7 +393,7 @@ iframe{
         margin-left: 10px;
     }
     #main-skills{
-        height: 56.8vh;
+        height: 750px;
     }
     .project{
         font-size: 20px;
@@ -422,28 +418,48 @@ iframe{
         margin-left: 20px;
     }
     #main-skills{
-        height: 950px;
+        height: 720px; /* changed */
     }
     .edu-S{
         font-size: 45px;
     }
     .skil1 {
+        height: 140px;
+        width: 140px;
+    }
+    .skil1:hover{
         height: 150px;
         width: 150px;
     }
     .skil2 {
+        height: 140px;
+        width: 140px;
+    }
+    .skil2:hover{
         height: 150px;
         width: 150px;
     }
     .skil3 {
+        height: 140px;
+        width: 140px;
+    }
+    .skil3:hover{
         height: 150px;
         width: 150px;
     }
     .skil4 {
+        height: 140px;
+        width: 140px;
+    }
+    .skil4:hover{
         height: 150px;
         width: 150px;
     }
     .skil5 {
+        height: 140px;
+        width: 140px;
+    }
+    .skil5:hover{
         height: 150px;
         width: 150px;
     }
